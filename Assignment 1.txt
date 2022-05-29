@@ -1,0 +1,36 @@
+1. What do you mean by cells in an excel sheet?
+--> Every worksheet in a excel workbook is made up of thousands of rectangle elements called cells.
+    A cell is a intersection of row and column, rows are indentified by numbers and columns
+    are identified by letters.
+
+2. How can you restrict someone from copying a cell from your worksheet?
+--> In order to protect your worksheet from getting copied, you need to go into Menu bar >Review > Protect sheet > Password.
+    By entering password, you can secure your worksheet from getting copied by others.
+
+3. How to move or copy the worksheet into another workbook?
+--> Follow below steps to move or copy worksheet:
+   1.Right click on the sheet name (tab where all sheetnames are available) that you want to copy, and then click Move or Copy…
+   2.In the Move or Copy dialog box, do the following:
+   	a.Under To book, choose the target file. To place a copy into a new workbook,select (new book).
+	  Excel displays only the open workbooks in the To book drop-down list, so be sure to open the destination file before copying.
+   	b.Under Before sheet, specify where to put the copy.
+   	c.Select the Create a copy box.
+   	d.Click OK. 
+
+4. Which key is used as a shortcut for opening a new window document?
+--> Ctrl + N is used as a shortcut for opening a new window document.
+
+5. What are the things that we can notice after opening the Excel interface?
+--> When an excel workbook is opened, excel worksheet is having numerous cells. Columns are labelled with numbers and rows
+    are labelled with alphabets.
+    Ribbon tab (top level menu options) has File, Home, Insert, Page Layout, Data, Review and View.
+    By default Home Ribbon is displayed. In home tab, different options are available for formatting the data.
+    Similar features are organized by group, for example there is a Clipboard group with cut, copy, and paste commands;
+    and a Font group with font styles, colors, and sizes. 
+    
+    In the worksheet tab: Three worksheets will be available by default with the names sheet1,sheet2 and sheet3.
+    
+
+6. When to use a relative cell reference in excel?
+--> Relative references are used when we want to perform a similar operation on multiple cells and the formula must change 
+    according to the relative address of column and row.  
