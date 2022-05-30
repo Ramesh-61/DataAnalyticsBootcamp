@@ -1,0 +1,39 @@
+1. What does the dollar($) sign do?
+--> In Excel, a dollar sign can denote a currency format, but it has another common use: indicating absolute cell references in formulas. 
+    The cell referrence used in the formula will not be changed when we copy and paste the formula.
+
+2. How to Change the Reference from Relative to Absolute (or Mixed)?
+--> F4 function key is used to change the reference from relative to absolute or mixed.
+    For example, if you enter = A1 to start a formula, pressing F4 converts the cell reference to = $A$1. 
+    Pressing F4 again converts it to = A$1. Pressing it again displays = $A1.
+
+3. Explain the order of operations in excel?
+--> When evaluating a formula, Excel follows a standard math protocol called "order of operations". In general, Excel's order of operation follows the acronym PEMDAS 
+   (Parentheses, Exponents, Multiplication, Division, Addition, Subtraction)  
+
+4. What, according to you, are the top 5 functions in excel and write a basic syntax for any of two?
+--> Top 5 functions in excel:
+    1.SUM : Sum function returns the sum of numbers specified in the arguments or we can specify the cells reference.
+           The syntax formula for sum function is “=SUM(number1, number2, etc.)" OR "=SUM(FirstCell:LastCell).
+           
+    2.TEXT : Text function helps to convert a date (or number) into a text string in a particular format.
+            The syntax formula for text function is “=TEXT” (value, format_text).
+            “Value” refers to the particular number you wish to convert to text.
+            “Format_text” defines the format of the conversion.
+            Text function helps to convert a date (or number) into a text string in a particular format.
+    3.CONCATENATE
+    4.AVERAGE
+    5.VLOOKUP
+
+5. When would you use the subtotal function?
+--> The SUBTOTAL function is used when you display a Total row in an Excel Table. 
+    Excel inserts the SUBTOTAL function automatically, and you can use a drop-down menu to switch behavior and show max, min, average, etc.
+
+6. What is the syntax of the vlookup function? Explain the terms in it?
+--> VLOOKUP function looks for a value in left most column of a table and returns a value in the same row from a column specified.
+    
+    Syntax: VLOOKUP(lookup_value, table_array, column_index_number, range_lookup)
+    
+    the VLOOKUP function says: =VLOOKUP(What you want to look up, where you want to look for it, 
+    the column number in the range containing the value to return, 
+    return an Approximate or Exact match – indicated as 1/TRUE, or 0/FALSE). 
