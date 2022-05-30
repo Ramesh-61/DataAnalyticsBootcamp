@@ -1,0 +1,33 @@
+1. To use the ribbon commands, what menu and grouping of commands will you find the Insert and Delete command?
+--> In the Home menu and Cells grouping, Insert and Delete commands are available. 
+
+2. If you set a row height or column width to 0 (zero), what happens to the row and column?
+--> The corresponding row and column will be hidden.
+
+3. Is there a need to change the height and width in a cell? Why?
+--> It is necessary to change width and height in excel to fit the data. Excel by default provide equal width and height with respect to columns and rows. 
+    Whenever we enter a lengthy data, few characters will get displayed and other will be present inside the cell but will be hidden to the user.
+
+4. What is the keyboard shortcut to unhide rows?
+--> Ctrl+Shift+9 is the shortcut to unhide rows.
+
+5. How to hide rows containing blank cells?
+--> With the Go To Special function, you can select the blank cells first and then apply the short cut keys to hide the rows which contain blank cells. 
+    Please do with following steps:
+    a.Select the data range which contains the blank cells you want to hide.
+    b.Then click Home > Find & Select > Go To Special.
+    c.And in the Go To Special dialog, select Blanks option, and then click OK button.
+    d.All of the blank cells in the selection have been selected.
+    e.Then you can press Ctrl + 9 keys together to hide the rows which have blank cells.
+
+6. What are the steps to hide the duplicate values using conditional formatting in excel?
+--> Follow below steps:
+    1.To start with, select the data where you want to apply Conditional Formatting. 
+    2.Open the Home tab >> from Conditional Formatting >> go to Highlight Cells Rules >> select Duplicate Values
+    3.A dialog box will pop up.
+    4.From there select Format cells that contain as Duplicates and values with as CustomFormat.
+    5.Another dialog box will pop up to choose the format.
+    6.From there you can select any color, but to hide duplicates you will need to choose the color of your cell
+    7.Afer selecing the same background colour, click on OK.
+    8.Now, click OK on the first dialog box of Duplicate Values.
+    9.All the duplicates values are hidden including the first occurrence.
