@@ -1,0 +1,50 @@
+1. How many types of conditions are available in conditional formatting on Excel?
+--> There are 7 types of conditions available:
+	Format values greater than, less than, between, equal to
+	Format values above or below the average
+	Highlight the top or bottom 10 items
+	Highlight the top or bottom 10%
+	Highlight the duplicate or unique items
+	Format a date falling within a certain period
+	Format text containing certain words or characters 
+
+There are 5 types of conditional formatting visualizations available:
+	Background Color Shading (of cells)
+	Foreground Color Shading (of fonts)
+	Data Bars
+	Icons (which have 4 different image types)
+	Values 
+
+2. How to insert border in Excel with Format Cells dialog?
+--> Follow below steps to insert borders:
+   1.Select one or more cells to which you'd like to add borders.
+   2.Open the Format Cells dialog box by Right click on the selected cells and choose Format Cells… from the context menu.
+   3.In the Format Cells dialog box, switch to the Border tab and choose the line style and color first. 
+     And then, either use Presets to add the outside or inside borders or construct the desired border by selecting individual elements such as border top, bottom, right or left. 
+     The preview diagram will reflect the changes immediately.
+   4.When done, click OK.
+
+3. How to Format Numbers as Currency in Excel?
+--> Select the cells that you want to format and then,
+    In the Number group on the Home tab, click the down arrow in the Number Format box.
+    Choose either Currency or Accounting.
+
+4. What are the steps to format numbers in Excel with the Percent style?
+--> Select the cells that you want to format and then,
+    In the Number group on the Home tab, click the down arrow in the Number Format box.
+    Choose Percentage as the format. 
+
+5. What is a shortcut to merge two or more cells in excel?
+--> Merge Cells: ALT H+M+M.
+
+6. How do you use text commands in Excel?
+--> The TEXT function lets you change the way a number appears by applying formatting to it with format codes. 
+    It's useful in situations where you want to display numbers in a more readable format, or you want to combine numbers with text or symbols.
+
+    Syntax : TEXT(value, format_text)
+    	value: A numeric value that you want to be converted into text.
+        format_text: A text string that defines the formatting that you want to be applied to the supplied value.
+
+   Example:
+    TEXT(1234.567,"$#,##0.00")  = Currency with a thousands separator and 2 decimals, like $1,234.57. 
+    TEXT(TODAY(),"DDD")  = Today's day of the week with first 3 letters like Mon.
